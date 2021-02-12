@@ -67,9 +67,9 @@
     </p>
     <div class="margV-1">
       <p class="text-just">
-TurboTactis est un jeu web multijoueur local rogue light. C'est un petit projet développé dans le cadre du cours de J2EE d'ING2. La consigne été de créer un site web utilisant un backend en J2EE. C'est avec un groupe de 8 personnes que j'ai développé la base de ce jeu multijoueur (malheureusement incomplet par manque de temps). Le site permet à plusieurs joueurs de se connecter grâce à un code généré aléatoirement à la création d'une partie. Une partie se compose de plusieurs niveaux générés aléatoirement. Toutes communications serveur et client a été achevées, mais la partie gameplay est manquante.
+TurboTactis est un jeu web multijoueur local rogue like. C'est un petit projet développé dans le cadre du cours de J2EE d'ING2. La consigne était de créer un site web en utilisant un backend en J2EE. C'est avec un groupe de 8 personnes que j'ai développé la base de ce jeu multijoueur (malheureusement incomplet par manque de temps). Le site permet à plusieurs joueurs de se connecter grâce à un code généré aléatoirement à la création d'une partie. Une partie se compose de plusieurs niveaux générés aléatoirement. Toutes les communications serveur et client sont terminées, cependant la partie gameplay reste inachevée.
       </p><p>
-J'ai eu l'occasion de travailler sur le rendu graphique du jeu. Il s'agit de mon premier projet WebGL écrit complétement "from scratch". Malgré cela le moteur graphique peut gérer un atlas de sprites, des animations basiques ainsi que des lumières dynamiques.
+J'ai eu l'occasion de travailler sur le rendu graphique du jeu. Il s'agit de mon premier projet WebGL écrit complétement à partir de rien. Malgré ça le moteur graphique peut gérer un atlas de sprites, des animations basiques ainsi que des lumières dynamiques.
       </p>
       <div class="flex right margV-3">
         <div><img class="hov-opac-3 shadow" src="img/turbo2.png"></div>
@@ -85,11 +85,11 @@ J'ai eu l'occasion de travailler sur le rendu graphique du jeu. Il s'agit de mon
     </p>
     <div class="margV-1">
       <p class="text-just">
-Cymbale (à la base "Color experiment") est un projet personnel inspiré de TurboTactics. Cymbale est davantage un démonstrateur qu'un projet à part entière. Mes objectifs étaient :
-<div class="margH-1 margV-1 margB-0 paddH-2 out-lighter out-2 out-L">m'améliorer en GLSL</div>
-<div class="margH-1 paddV-1 paddH-2 out-lighter out-2 out-L">expérimenter avec des lumières dynamiques</div>
-<div class="margH-1 margV-1 margT-0 paddH-2 out-lighter out-2 out-L">créer un batch renderer</div>
-Cymbale se distingue donc par sa capacité à rendre un grand nombre de lumières dans un environnement "batché". Les principales améliorations par rapport à TurboTactics sont : l'optimisation, des lumières colorées et des ombres plus douces.
+Cymbale (à la base "Color experiment") est un projet personnel inspiré de TurboTactics. Cymbale est davantage un démonstrateur qu'un projet à part entière. J'avais pour objectifs :
+<div class="margH-1 margV-1 margB-0 paddH-2 out-lighter out-2 out-L">de m'améliorer en GLSL</div>
+<div class="margH-1 paddV-1 paddH-2 out-lighter out-2 out-L">d'expérimenter avec des lumières dynamiques</div>
+<div class="margH-1 margV-1 margT-0 paddH-2 out-lighter out-2 out-L">de créer un batch renderer</div>
+Cymbale se distingue donc par sa capacité à rendre un grand nombre de lumières dans un environnement "batché". Les principales améliorations par rapport à TurboTactics sont : l'optimisation du moteur graphique, des lumières colorées et des ombres plus douces.
       </p>
       <div class="flex right margV-3">
         <div><img class="hov-opac-3 shadow" src="img/batch.png"></div>
@@ -105,7 +105,7 @@ Cymbale se distingue donc par sa capacité à rendre un grand nombre de lumière
     </p>
     <div class="margV-1">
       <p class="text-just">
-Conflatorium est un jeu puzzle sur le thème de l'alchimie. Développé dans le contexte d'une GameJam de deux semaines organisée par l'association Informatique et Réseau de l'école. Mon objectif était de coder ce jeu sans aucun apport externe (en dehors de la police d'écriture et de la musique). J'ai commencé par créer un moteur de jeu simpliste appelé Marimba (à la base "MRT experiment"). Marimba se base sur l'expérience acquise avec TurboTactics et Cymbale et comporte notamment : un batch renderer, un système de particules, et supporte le Multi-Render-Targets (permettant par exemple un effet de bloom).
+Conflatorium est un jeu puzzle sur le thème de l'alchimie. Développé dans le contexte d'une GameJam de deux semaines organisée par l'association Informatique et Réseau de l'école. Mon objectif était de coder ce jeu sans aucun apport externe (en dehors de la police d'écriture et de la musique). J'ai commencé par créer un moteur de jeu simpliste appelé Marimba (à la base "MRT experiment"). Marimba se base sur l'expérience acquise avec TurboTactics et Cymbale et comporte notamment : un batch renderer, un système de particules et supporte le Multi-Render-Targets (permettant par exemple un effet de bloom).
       </p><p>
 Conflatorium ne contient malheureusement que 3 niveaux sur les 10 prévus originellement. Il reste cependant l'un de mes projets les plus complexe et abouti.
       </p>
@@ -155,7 +155,7 @@ Le simulateur est suffisament flexible pour pouvoir faire varier divers paramèt
     </p>
     <div class="margV-1">
       <p class="text-just">
-FLUID-3D ou MCShaderCFD est une implémentation en trois dimensions d'une simulation de fluides. C'est l'une de mes premières expériences en "modding", ce projet s'intégrant au jeu Minecraft au travers de l'API d'Optifine. Contrairement aux autres projets graphiques, je n'ai donc pas eu à écrire le renderer ou la logique du jeu, mais uniquement la partie GPU (toujours en GLSL). La méthode physique utilisée est similaire à la première itération de FLUID-2D et en conséquence n'est pas au même niveau de standard. La simulation est moins flexible et moins précise physiquement. Cependant elle m'a permis d'expérimenter avec le data-packing et le raycasting. Une deuxième itération est en préparation.
+FLUID-3D ou MCShaderCFD est une implémentation en trois dimensions d'une simulation de fluides. C'est l'une de mes premières expériences en "modding", ce projet s'intégrant au jeu Minecraft au travers de l'API d'Optifine. Contrairement aux autres projets graphiques, je n'ai donc pas eu à écrire le renderer ou la logique du jeu, mais uniquement la partie GPU (toujours en GLSL). La méthode physique utilisée est similaire à la première itération de FLUID-2D. En conséquence la simulation est moins flexible et moins précise physiquement. Cependant elle m'a permis d'expérimenter avec le data-packing et le raycasting. Une deuxième itération est en préparation.
       </p>
       <img class="hov-opac-3 shadow margV-3" src="img/fluidMC.png">
     </div>
@@ -174,7 +174,7 @@ FLUID-3D ou MCShaderCFD est une implémentation en trois dimensions d'une simula
   <div class="flex-m0 paddV-2">
     <div class="margV-1">
       <p class="text-just">
-Eistiade est certainement le plus gros projet que j'ai entrepris, de par la quantité de code, le nombre de technologies et de domaines touchés. Il s'agit d'un site Web inspiré de CodinGame permettant d'organiser des concours d'intelligences artificielles. Le site propose un jeu à 2 participants. Les joueurs peuvent créer un programme dans une variété de langage qui joue à leur place et combat les autres intelligences artificielles. Des tournois sont organisés à intervalles régulier afin de mettre à jour un leaderboard. Le backend du site (en node.js) délègue au travers d'une base de données SQL, l'execution du code à un système de workers parallèle en python. Le système doit permettre la potentielle compilation puis l'execution controllée des scripts étrangés et potentiellement mal veillants. Il doit également assurer une bonne communication entre tous les programmes, quelque soit leur langage. Eistiade est loin d'être parfait, mais a atteint un stade fonctionnel. C'est de loin le projet qui m'aura demandé le plus de temps et de réflexion.
+Eistiade est certainement le plus gros projet que j'ai entrepris, de par la quantité de code, le nombre de technologies et de domaines touchés. Il s'agit d'un site Web inspiré de CodinGame permettant d'organiser des concours d'intelligences artificielles. Le site propose un jeu à 2 participants. Les joueurs peuvent créer un programme dans une variété de langage qui joue à leur place et combat les autres intelligences artificielles. Des tournois sont organisés à intervalles réguliers afin de mettre à jour un leaderboard. Le backend du site (en node.js) délègue au travers d'une base de données SQL, l'execution du code à un système de workers parallèle en python. Le système doit permettre la potentielle compilation puis l'execution controllée des scripts étrangers et potentiellement malveillants. Il doit également assurer une bonne communication entre tous les programmes, quelque soit leur langage. Eistiade est loin d'être parfait, mais a atteint un stade fonctionnel. C'est de loin le projet qui m'aura demandé le plus de temps et de réflexion.
       </p>
       <img class="hov-opac-3 shadow margV-3" src="img/eistiade.png">
     </div>
@@ -190,7 +190,7 @@ Eistiade est certainement le plus gros projet que j'ai entrepris, de par la quan
   <div class="flex-m0 paddV-2">
     <div class="margV-1">
       <p class="text-just">
-Toujours à la recherches de nouvelles connaissances, je conssacre la majeure partie de mon temps libre à des projets personnels plus ou moins ambitieux dans des environnements plus ou moins alambiqués. Voici une selection de quelques projets informatiques et artistiques entammés en parallèles de mes études.
+Toujours à la recherches de nouvelles connaissances, je consacre la majeure partie de mon temps libre à des projets personnels plus ou moins ambitieux dans des environnements plus ou moins alambiqués. Voici une sélection de quelques projets informatiques et artistiques entamés en parallèle de mes études.
       </p>
       <div class="flex down margV-3 rec-marg-1">
         <div class="flex flex-3 right">
