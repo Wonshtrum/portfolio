@@ -1,0 +1,54 @@
+/*==============================================*/
+/*             Waiting animation                */
+/*==============================================*/
+.loading {
+	height: 1em;
+	text-align: center;
+	margin: 1em 0;
+}
+.loading > .bar {
+	display: inline-block;
+	width: .5em;
+	height: .5em;
+	background: white;
+	margin: 0 .5em;
+	transition: margin .5s;
+}
+.loading[progress='0'] > .bar:nth-child(1), .loading[progress='1'] > .bar:nth-child(2), .loading[progress='2'] > .bar:nth-child(3) {
+	background: var(--flashColor);
+	margin-right: 0;
+	margin-left: 1em;
+}
+
+/*==============================================*/
+/*                   Comestic                   */
+/*==============================================*/
+.arrow {
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+.arrow.down {
+	border-top-color: var(--blackColor);
+	border-bottom-color: transparent !important;
+	border-left-color: transparent !important;
+	border-right-color: transparent !important;
+}
+.arrow.up {
+	border-top-color: transparent !important;
+	border-bottom-color: var(--blackColor);
+	border-left-color: transparent !important;
+	border-right-color: transparent !important;
+}
+.arrow.right {
+	border-top-color: transparent !important;
+	border-bottom-color: transparent !important;
+	border-left-color: var(--blackColor);
+	border-right: 0 transparent !important;
+}
+.arrow.left {
+	border-top-color: transparent !important;
+	border-bottom-color: transparent !important;
+	border-left: 0 transparent !important;
+	border-right-color: var(--blackColor);
+}

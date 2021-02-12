@@ -1,0 +1,39 @@
+/*==============================================*/
+/*                   CONSTANTS                  */
+/*==============================================*/
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/SSB.ttf") format("truetype");
+}
+
+html {
+	/* - colors */
+	--primColor : #29a2a2;
+	--flashColor: #f2bb13;
+	--lightFlashColor: #ffcc55;
+	--darkColor : #424242;
+	--lightColor: #616161;
+	--lighterColor: rgba(0,0,0,0.12);
+	--whiteColor: #fff;
+	--blackColor: #212121;
+	
+	/* - sizes */
+  --rem: 16px;
+	--panelIndent: calc(2 * var(--rem));
+	--margin: calc(0.5 * var(--rem));
+  --marginView: 1vmin;
+	--minW: calc(5 * var(--rem));
+
+	--titleH: calc(2.5 * var(--rem));
+	--textH : calc(1.5 * var(--rem));
+	--stdText: calc(1.0 * var(--rem));
+  --baseText: min(calc(1vmin + 0.6 * var(--rem)), calc(1.2 * var(--rem)));
+
+	/* - timers */
+	--popupTime: .5s;
+
+	color: var(--darkColor);
+	font-family: Roboto, sans-serif;
+	font-weight: 1;
+	scrollbar-color: var(--lighterColor) transparent;
+}
