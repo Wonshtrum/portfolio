@@ -16,3 +16,8 @@ img { width: 100%; }
 	font-weight: 700;
 }
 .min > .title:hover { background: var(--lightColor); }
+
+.text-icon {
+	width: 10vmin;
+	filter: grayscale(0);
+}
